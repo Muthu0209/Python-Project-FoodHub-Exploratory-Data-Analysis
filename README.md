@@ -8,7 +8,7 @@ Answer the Data Science team's key questions about restaurant demand and custome
 
 ## Dataset
 
-The dataset contains 1,898 orders and 9 columns, with no missing values.
+The dataset (`foodhub_order.csv`) contains 1,898 orders and 9 columns, with no missing values.
 
 | Column | Description |
 |---|---|
@@ -67,6 +67,7 @@ The dataset contains 1,898 orders and 9 columns, with no missing values.
 ```
 .
 ├── Muthulakshmi_Viswanathan_FoodHub..ipynb   # Full analysis notebook
+├── foodhub_order.csv                         # Dataset (1,898 orders)
 └── README.md
 ```
 
@@ -75,15 +76,17 @@ The dataset contains 1,898 orders and 9 columns, with no missing values.
 1. Clone the repository:
    ```bash
    git clone https://github.com/Muthu0209/Python-Project-FoodHub-Exploratory-Data-Analysis.git
+   cd Python-Project-FoodHub-Exploratory-Data-Analysis
    ```
 2. Install dependencies:
    ```bash
    pip install numpy pandas matplotlib seaborn
    ```
-3. Open the notebook in Jupyter or Google Colab and update the path to `foodhub_order.csv` in the data-loading cell.
+3. Open the notebook in Jupyter or Google Colab. The dataset `foodhub_order.csv` is included in the repo and loads from the same folder (`pd.read_csv('foodhub_order.csv')`).
 4. Run all cells.
 
 ## Author
 
 **Muthulakshmi Viswanathan**
 Data Analyst | SQL, Python, Power BI, Tableau
+
